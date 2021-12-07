@@ -1,4 +1,5 @@
 import 'package:busha/src/common/app_colors.dart';
+import 'package:busha/src/common/util.dart';
 import 'package:flutter/material.dart';
 
 class MoverItems extends StatelessWidget {
@@ -21,8 +22,8 @@ class MoverItems extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: MediaQuery.of(context).size.height * 0.2,
-          width: MediaQuery.of(context).size.width * 0.5,
+          height: context.responsiveHeight * 0.2,
+          width: context.responsiveWidth * 0.5,
           margin: const EdgeInsets.symmetric(horizontal: 5),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),

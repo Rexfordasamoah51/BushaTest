@@ -1,4 +1,5 @@
 import 'package:busha/src/app/widget_wrapper.dart';
+import 'package:busha/src/common/util.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -104,10 +105,10 @@ class _MoverItemsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height * 0.2,
+      height: context.responsiveHeight * 0.2,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        key: const Key("mover_list"),
+  
         physics: const BouncingScrollPhysics(),
         itemBuilder: (context, index) {
           return MoverItems(
