@@ -51,9 +51,7 @@ class RefererCard extends StatelessWidget {
                   ),
                   Text(
                     'Invite a friend to Busha\nand earn 0.25% on all\ntheir transactions',
-                    style: Theme.of(context).textTheme.bodyText1!.copyWith(
-                          fontSize: 18,
-                        ),
+                    style: Theme.of(context).textTheme.subtitle1!,
                   ),
                   Text(
                     'Invite Friends',

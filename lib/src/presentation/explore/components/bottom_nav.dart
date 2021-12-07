@@ -16,23 +16,17 @@ class BottomNav extends StatelessWidget {
       selectedItemColor: AppColors.greyPrimary,
       showUnselectedLabels: false,
       type: BottomNavigationBarType.shifting,
-      items: const [
+      items: [
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.search,
-          ),
+          icon: Image.asset('assets/Union.png'),
           label: '',
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.account_balance_wallet_outlined,
-          ),
+          icon: Image.asset('assets/wallet.png'),
           label: '',
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            CupertinoIcons.person,
-          ),
+          icon: Image.asset('assets/profile-outline.png'),
           label: '',
         ),
       ],

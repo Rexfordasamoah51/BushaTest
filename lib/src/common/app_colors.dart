@@ -13,6 +13,8 @@ class AppColors {
   static Color greyPrimary = base('9E9E9E');
   static Color greySecondary = base('F7F9FA');
   static Color bluePrimary = base('627EEA');
-  static  Color yellowPrimary = base('F3BA2F');
-  static  Color yellowSecondary = base('FF9900');
+  static Color yellowPrimary = base('F3BA2F');
+  static Color yellowSecondary = base('FF9900');
+  static Color greenPrimary = base('05A357');
+  static Color greebSec = base('50AF95');
 }
