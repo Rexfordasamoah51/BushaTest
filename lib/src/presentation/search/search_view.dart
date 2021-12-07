@@ -81,7 +81,7 @@ class _SearchBar extends StatelessWidget {
         placeholderStyle: Theme.of(context).textTheme.bodyText2!.copyWith(
               color: AppColors.greyPrimary,
             ),
-        prefix:  Padding(
+        prefix: Padding(
           padding: const EdgeInsets.fromLTRB(5.0, 5.0, 0.0, 5.0),
           child: Image.asset('assets/ser.png'),
         ),
